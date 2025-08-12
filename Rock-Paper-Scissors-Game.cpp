@@ -194,6 +194,7 @@ void StartGame() {
 		if (start_again == 'y' || start_again == 'Y') {
 			system("cls");
 			system("color 0F");
+			draw_times = 0;
 		}
 		rounds_number = ReadNumInRange("How many rounds do you want to play? [1-10] : ", 1, 10);
 
